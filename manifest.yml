@@ -1,10 +1,10 @@
 applications:
 - memory: 512M
   services:
-  - sample-node-red-cloudantNoSQLDB
+  - Cloudant NoSQL DB-h5
   env:
-    NODE_RED_STORAGE_NAME: sample-node-red-cloudantNoSQLDB
+    NODE_RED_STORAGE_NAME: Cloudant NoSQL DB-h5
 declared-services:
-  sample-node-red-cloudantNoSQLDB:
+  Cloudant NoSQL DB-h5:
     label: cloudantNoSQLDB
     plan:  Lite
